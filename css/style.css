@@ -2,7 +2,7 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     font-size: 16px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     font-weight: 400;
     background-color: #FFFFFF;
 }
@@ -16,11 +16,15 @@ h1 {
 h2 {
     font-size: 36px;
     font-weight: 700;
+    line-height: 1.2; 
+    color: #2e2f42;
 }
 
 h3 {
     font-size: 20px;
     font-weight: 500;
+    line-height: 1.2;
+    color: #2e2f42;
 }
 
 a {
@@ -28,21 +32,57 @@ a {
 }
 
 p {
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 4%;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     font-weight: 400;
+    color: #434455 ;
+}
+
+.main-title {
+    line-height: 1.07;
+    text-align: center;
+}
+
+.section-team {
+    background-color: #F4F4FD;
+}
+
+.section-title {
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize
+}
+
+.team {
+    background-color: #FFFFFF;
+}
+
+.address {
+    font-style: normal;
+}
+
+.address-text {
+    line-height: 1.5;
+    color: #434455;
+}
+
+.address-text:hover,
+.address-text:focus {
+    color: #404bbf;
 }
 
 button {
     cursor: pointer;
     background-color: #4D5AE5;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     line-height: 24px;
     color: white;
+    font-weight: 500;
 }
 
-button:hover {
+button:hover,
+button:focus {
     background-color: #404BBF;
 }
 
@@ -51,11 +91,17 @@ button:hover {
 }
 
 nav ul li>a {
-    color: black;
+    color: #2e2f42;
 }
 
-nav ul li a:hover {
+nav ul li a:hover,
+nav ul li a:focus {
     color: #404BBF; 
+}
+
+.active-menu {
+    font-weight: 500;
+    line-height: 1.5;
 }
 
 .active-menu>a:active {
@@ -77,7 +123,7 @@ nav ul li a:hover {
 }
 
 .footer-logo {
-    #2e2f42
+    color: #F4F4FD;
 }
 
 .footer-text {
