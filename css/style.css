@@ -1,9 +1,10 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: black;
+    color: #434455;
     font-size: 16px;
     letter-spacing: 2%;
     font-weight: 400;
+    background-color: #FFFFFF;
 }
 
 h1 {
@@ -61,25 +62,26 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-.main-logo {
-    color: #4D5AE5;
+.logo {
     text-transform: uppercase;
-}
-
-.logo-dark {
-    text-transform: uppercase;
-    color: #2E2F42;
+    color: #4d5ae5;
     font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 
-.logo-white {
-    color: white;
-    text-transform: uppercase;
+.main-logo {
+    color: #2e2f42;
 }
 
 .footer-logo {
-    color: #4D5AE5;
-    text-transform: uppercase;
+    #2e2f42
+}
+
+.footer-text {
+    color: #F4F4FD;
 }
 
 footer {
