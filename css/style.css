@@ -11,6 +11,7 @@ h1 {
     color: white;
     font-size: 56px;
     line-height: 60px;
+    letter-spacing: 0.02em;
 }
 
 h2 {
@@ -18,6 +19,7 @@ h2 {
     font-weight: 700;
     line-height: 1.2; 
     color: #2e2f42;
+    letter-spacing: 0.02em;
 }
 
 h3 {
@@ -25,6 +27,7 @@ h3 {
     font-weight: 500;
     line-height: 1.2;
     color: #2e2f42;
+    letter-spacing: 0.02em;
 }
 
 a {
@@ -97,6 +100,10 @@ nav ul li>a {
 nav ul li a:hover,
 nav ul li a:focus {
     color: #404BBF; 
+}
+
+.post {
+    background-color: #FFFFFF;
 }
 
 .active-menu {
